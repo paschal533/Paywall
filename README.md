@@ -54,7 +54,7 @@ Paywall is a decentralized financial service that allows you to pay all your emp
 
 - Demo: https://paywall2.netlify.app/
 
-- Video: <Link>
+- Video: https://youtu.be/iUDBf7er8N4
 
 - Tweet: https://x.com/dev_Paschal/status/1704604284082409732?s=20
  

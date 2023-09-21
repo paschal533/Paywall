@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "generate-types": "typechain --target=ethers-v5 'contracts/*.json'"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@metamask/onboarding": "^1.0.1",
+    "connectkit": "^1.5.3",
+    "cryptocompare": "^1.0.0",
+    "framer-motion": "^10.0.1",
+    "idriss-crypto": "^1.8.9",
+    "next": "13.2.1",
+    "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^9.1.0",
+    "wagmi": "^1.4.2",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.28",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "keyv": "^4.5.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

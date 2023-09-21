@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white !important;
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 8px 12px;
+  color: #ffffff;
+  background: #440be9;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 430;
+  box-shadow: 0 2px 12px -3px #1a88f8;
+  border-radius: 10px;
+  transition: 200ms ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px -6px #1a88f8;
+}
+
+.btn:active {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px -6px #1a88f8;
+}
+
+@media (max-width: 600px) {
+  .swiper {
+    width: 80vw !important;
+    height: 320px;
+  }
+}
+
+.swiper {
+  width: 540px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}

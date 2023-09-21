@@ -1,5 +1,7 @@
 # PayWall
 
+![screenshot](./frontend/assets/Screenshot%20(94).png)
+
 ## Description
 
 Paywall is a decentralized financial service that allows you to pay all your employees with crypto currency with one click.
